@@ -1,0 +1,1911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. ScrubBoss - Premium Mobile Car Wash & Detailing in Bangalore</title>
+    <meta name="description" content="Professional mobile car washing and detailing services in Bangalore. Eco-friendly car care at your doorstep with subscription plans for all vehicle types. Serving Whitefield, Electronic City, Koramangala." />
+    <meta name="author" content="Dr. ScrubBoss" />
+    <meta name="keywords" content="car wash bangalore, mobile car wash, car detailing, eco-friendly car care, subscription car wash, whitefield car wash, electronic city car wash, koramangala car wash" />
+
+    <meta property="og:title" content="Dr. ScrubBoss - Premium Mobile Car Wash & Detailing in Bangalore" />
+    <meta property="og:description" content="Professional mobile car washing and detailing services in Bangalore. Eco-friendly car care at your doorstep with subscription plans for all vehicle types." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: #1a202c;
+            background-color: #f8fafc;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            color: #1a202c;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        p {
+            color: #64748b;
+            line-height: 1.7;
+        }
+
+        /* Buttons */
+        .btn-primary {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px) scale(1.05);
+        }
+
+        .btn-primary:active {
+            transform: scale(0.95);
+        }
+
+        .btn-luxury {
+            background: linear-gradient(135deg, #facc15, #eab308);
+            color: black;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .btn-luxury:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px) scale(1.05);
+        }
+
+        .btn-outline {
+            border: 2px solid #3b82f6;
+            color: #3b82f6;
+            background: transparent;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .btn-outline:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .btn-whatsapp {
+            background: #10b981;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 16px;
+        }
+
+        .btn-whatsapp:hover {
+            background: #059669;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px) scale(1.05);
+        }
+
+        /* Cards */
+        .card-elevated {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .card-elevated:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+        }
+
+        .card-luxury {
+            background: linear-gradient(135deg, white, #fefce8);
+            border: 1px solid #fde047;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .card-luxury:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+        }
+
+        .card-service {
+            background: white;
+            border: 1px solid #f1f5f9;
+            border-radius: 12px;
+            padding: 16px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .card-service:hover {
+            background: #f8fafc;
+            border-color: #bfdbfe;
+        }
+
+        /* Text Gradients */
+        .text-gradient-luxury {
+            background: linear-gradient(135deg, #facc15, #eab308);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Layout */
+        .container-custom {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+
+        .section-padding {
+            padding: 64px 16px;
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 40;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+            padding: 0 16px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            color: #3b82f6;
+        }
+
+        .logo-text {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a202c;
+        }
+
+        .nav-desktop {
+            display: none;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: #64748b;
+            background: none;
+            border: none;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: #3b82f6;
+        }
+
+        .mobile-menu-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .mobile-nav {
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            padding: 8px 16px;
+        }
+
+        .mobile-nav-link {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 12px;
+            color: #64748b;
+            background: none;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-nav-link:hover {
+            color: #3b82f6;
+            background: #eff6ff;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background-image: url('src/assets/hero-car-wash.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            color: white;
+            padding: 16px;
+            max-width: 896px;
+            margin: 0 auto;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            line-height: 1.2;
+            color: white;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 32px;
+            color: #d1d5db;
+            line-height: 1.6;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+        }
+
+        .feature-card {
+            text-align: center;
+        }
+
+        .feature-icon {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+        }
+
+        .feature-icon.blue {
+            background: #dbeafe;
+        }
+
+        .feature-icon.yellow {
+            background: #fef3c7;
+        }
+
+        .feature-icon.green {
+            background: #d1fae5;
+        }
+
+        .feature-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 16px;
+        }
+
+        .feature-description {
+            color: #64748b;
+        }
+
+        /* Value Props */
+        .value-props {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+            margin-top: 64px;
+        }
+
+        .value-prop {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .value-prop-icon {
+            width: 24px;
+            height: 24px;
+            color: #10b981;
+            margin-top: 4px;
+            flex-shrink: 0;
+        }
+
+        .value-prop-title {
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .value-prop-description {
+            color: #64748b;
+        }
+
+        /* Subscription Plans */
+        .subscription-plans {
+            display: grid;
+            gap: 24px;
+        }
+
+        .plan-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .plan-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .plan-icon {
+            font-size: 2rem;
+        }
+
+        .plan-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a202c;
+        }
+
+        .plan-subtitle {
+            color: #64748b;
+        }
+
+        .plan-options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            width: 100%;
+        }
+
+        .plan-option {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+            min-width: 280px;
+        }
+
+        .plan-option.premium {
+            background: linear-gradient(135deg, white, #fefce8);
+            border: 1px solid #fde047;
+            position: relative;
+        }
+
+        .popular-badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background: #facc15;
+            color: black;
+            font-size: 12px;
+            padding: 4px 8px;
+            border-radius: 16px;
+            font-weight: 600;
+        }
+
+        .plan-price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1a202c;
+        }
+
+        .plan-period {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .plan-services {
+            font-size: 14px;
+            color: #64748b;
+            margin: 12px 0;
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        .service-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .service-icon {
+            width: 48px;
+            height: 48px;
+            background: #eff6ff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .service-content {
+            flex: 1;
+        }
+
+        .service-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .service-name {
+            font-weight: 600;
+            color: #1a202c;
+        }
+
+        .service-price {
+            font-size: 18px;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+
+        .service-description {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        /* Testimonials */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+        }
+
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .testimonial-avatar {
+            width: 48px;
+            height: 48px;
+            background: #dbeafe;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 16px;
+        }
+
+        .testimonial-avatar-text {
+            color: #3b82f6;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .testimonial-name {
+            font-weight: 600;
+            color: #1a202c;
+        }
+
+        .testimonial-location {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .testimonial-stars {
+            display: flex;
+            margin-bottom: 12px;
+        }
+
+        .star {
+            width: 20px;
+            height: 20px;
+            color: #facc15;
+            fill: currentColor;
+        }
+
+        .testimonial-text {
+            color: #64748b;
+            font-style: italic;
+        }
+
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 48px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .contact-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .contact-icon.email {
+            background: #dbeafe;
+        }
+
+        .contact-icon.phone {
+            background: #d1fae5;
+        }
+
+        .contact-title {
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 8px;
+        }
+
+        .contact-link {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        .contact-link:hover {
+            color: #2563eb;
+        }
+
+        .contact-link.phone {
+            color: #10b981;
+        }
+
+        .contact-link.phone:hover {
+            color: #059669;
+        }
+
+        .service-areas {
+            margin-top: 32px;
+        }
+
+        .areas-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 24px;
+        }
+
+        .areas-description {
+            color: #64748b;
+            margin-bottom: 24px;
+        }
+
+        .areas-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .area-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .area-icon {
+            width: 20px;
+            height: 20px;
+            color: #3b82f6;
+            flex-shrink: 0;
+        }
+
+        .area-text {
+            color: #374151;
+        }
+
+        .expansion-note {
+            margin-top: 32px;
+            padding: 16px;
+            background: #eff6ff;
+            border-radius: 8px;
+        }
+
+        .expansion-text {
+            font-size: 14px;
+            color: #1e40af;
+        }
+
+        .expansion-text strong {
+            font-weight: 600;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1f2937;
+            color: white;
+            padding: 32px 0;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 16px;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .footer-logo-icon {
+            width: 32px;
+            height: 32px;
+            color: #60a5fa;
+        }
+
+        .footer-logo-text {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .footer-info {
+            text-align: center;
+        }
+
+        .footer-tagline {
+            color: #9ca3af;
+            margin-bottom: 8px;
+        }
+
+        .footer-copyright {
+            font-size: 14px;
+            color: #6b7280;
+        }
+
+        /* Mobile Bottom Navigation */
+        .mobile-bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 8px 0;
+            z-index: 50;
+        }
+
+        .mobile-nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            padding: 8px;
+            border-radius: 8px;
+            color: #6b7280;
+            background: none;
+            border: none;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .mobile-nav-item:hover,
+        .mobile-nav-item.active {
+            color: #3b82f6;
+            background: #eff6ff;
+        }
+
+        .mobile-nav-icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        .mobile-nav-text {
+            font-size: 12px;
+        }
+
+        /* Section backgrounds */
+        .bg-white {
+            background: white;
+        }
+
+        .bg-gray-50 {
+            background: #f8fafc;
+        }
+
+        /* Responsive Design */
+        @media (min-width: 640px) {
+            .hero-buttons {
+                flex-direction: row;
+            }
+
+            .hero-title {
+                font-size: 3.75rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.5rem;
+            }
+
+            .container-custom {
+                padding: 0 24px;
+            }
+
+            .section-padding {
+                padding: 64px 24px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .nav-desktop {
+                display: flex;
+            }
+
+            .mobile-menu-btn {
+                display: none;
+            }
+
+            .mobile-bottom-nav {
+                display: none;
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .value-props {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .plan-card {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .plan-header {
+                margin-bottom: 0;
+            }
+
+            .plan-options {
+                grid-template-columns: repeat(2, 1fr);
+                width: auto;
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .testimonials-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .contact-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-content {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .footer-logo {
+                margin-bottom: 0;
+            }
+
+            .footer-info {
+                text-align: right;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .container-custom {
+                padding: 0 32px;
+            }
+
+            .section-padding {
+                padding: 64px 32px;
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .hero-title {
+                font-size: 4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container-custom">
+            <div class="header-content">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 16H9m10 0h3m-3-3.5a3.5 3.5 0 0 1-7 0v-9a3.5 3.5 0 0 1 7 0v9Z"/>
+                        <path d="M7 9h.01"/>
+                        <circle cx="7" cy="9" r="4"/>
+                    </svg>
+                    <span class="logo-text">Dr. ScrubBoss</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <button class="nav-link active" onclick="scrollToSection('home')">Home</button>
+                    <button class="nav-link" onclick="scrollToSection('subscriptions')">Subscriptions</button>
+                    <button class="nav-link" onclick="scrollToSection('services')">Services</button>
+                    <button class="nav-link" onclick="scrollToSection('contact')">Contact</button>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="4" x2="20" y1="6" y2="6"/>
+                        <line x1="4" x2="20" y1="12" y2="12"/>
+                        <line x1="4" x2="20" y1="18" y2="18"/>
+                    </svg>
+                    <svg id="close-icon" class="hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="m18 6-12 12"/>
+                        <path d="m6 6 12 12"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-nav" class="mobile-nav hidden">
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                    <button class="mobile-nav-link" onclick="scrollToSection('home')">Home</button>
+                    <button class="mobile-nav-link" onclick="scrollToSection('subscriptions')">Subscriptions</button>
+                    <button class="mobile-nav-link" onclick="scrollToSection('services')">Services</button>
+                    <button class="mobile-nav-link" onclick="scrollToSection('contact')">Contact</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div style="min-height: 100vh; background: #f8fafc;">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg">
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Because Your Car Deserves VIP Treatment—
+                    <span class="text-gradient-luxury" style="display: block; margin-top: 8px;">At Home</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Dr. ScrubBoss brings professional car washing and detailing to you, with a 
+                    focus on sustainability and convenience.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('subscriptions')" style="font-size: 18px; padding: 16px 32px;">
+                        View Subscription Plans
+                    </button>
+                    <button class="btn-whatsapp" onclick="contactWhatsApp('Hi! I want to know more about Dr. ScrubBoss services.')" style="font-size: 18px; padding: 16px 32px;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        Chat on WhatsApp
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Dr. ScrubBoss Section -->
+        <section class="section-padding bg-white">
+            <div class="container-custom">
+                <div style="text-align: center; margin-bottom: 64px;">
+                    <h2 style="font-size: 2.25rem; font-weight: 700; color: #1a202c; margin-bottom: 16px;">
+                        Why Choose Dr. ScrubBoss?
+                    </h2>
+                    <p style="font-size: 1.25rem; color: #64748b; max-width: 768px; margin: 0 auto;">
+                        Experience the ultimate in car care convenience with our premium mobile services
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon blue">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
+                                <path d="M14 16H9m10 0h3m-3-3.5a3.5 3.5 0 0 1-7 0v-9a3.5 3.5 0 0 1 7 0v9Z"/>
+                                <path d="M7 9h.01"/>
+                                <circle cx="7" cy="9" r="4"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Convenience</h3>
+                        <p class="feature-description">
+                            Schedule washes at your preferred time and location. No need to drive anywhere!
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon yellow">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#eab308" stroke-width="2">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Quality</h3>
+                        <p class="feature-description">
+                            Experience meticulous detailing with premium products and trained technicians.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon green">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Eco-Friendly</h3>
+                        <p class="feature-description">
+                            We use water-saving techniques and biodegradable solutions for a cleaner planet.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Value Props -->
+                <div class="value-props">
+                    <div class="value-prop">
+                        <svg class="value-prop-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4"/>
+                            <circle cx="12" cy="12" r="9"/>
+                        </svg>
+                        <div>
+                            <h4 class="value-prop-title">Wash at Customer Location</h4>
+                            <p class="value-prop-description">Our mobile units come directly to your home or office.</p>
+                        </div>
+                    </div>
+                    <div class="value-prop">
+                        <svg class="value-prop-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4"/>
+                            <circle cx="12" cy="12" r="9"/>
+                        </svg>
+                        <div>
+                            <h4 class="value-prop-title">Subscription Service</h4>
+                            <p class="value-prop-description">Regular care plans that keep your vehicle spotless year-round.</p>
+                        </div>
+                    </div>
+                    <div class="value-prop">
+                        <svg class="value-prop-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4"/>
+                            <circle cx="12" cy="12" r="9"/>
+                        </svg>
+                        <div>
+                            <h4 class="value-prop-title">World Class Customer Support</h4>
+                            <p class="value-prop-description">24/7 support team ready to assist with any questions or concerns.</p>
+                        </div>
+                    </div>
+                    <div class="value-prop">
+                        <svg class="value-prop-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4"/>
+                            <circle cx="12" cy="12" r="9"/>
+                        </svg>
+                        <div>
+                            <h4 class="value-prop-title">Full Refund Guarantee</h4>
+                            <p class="value-prop-description">Not satisfied? Get your money back, no questions asked.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subscription Plans Section -->
+        <section id="subscriptions" class="section-padding bg-gray-50">
+            <div class="container-custom">
+                <div style="text-align: center; margin-bottom: 64px;">
+                    <h2 style="font-size: 2.25rem; font-weight: 700; color: #1a202c; margin-bottom: 16px;">
+                        Choose Your Plan
+                    </h2>
+                    <p style="font-size: 1.25rem; color: #64748b;">
+                        Subscription plans tailored for every vehicle type
+                    </p>
+                </div>
+
+                <div class="subscription-plans">
+                    <!-- Hatchback Plan -->
+                    <div class="card-elevated plan-card">
+                        <div class="plan-header">
+                            <div class="plan-icon">🚗</div>
+                            <div>
+                                <h3 class="plan-title">Hatchback</h3>
+                                <p class="plan-subtitle">Professional care for your vehicle</p>
+                            </div>
+                        </div>
+                        
+                        <div class="plan-options">
+                            <!-- Basic Plan -->
+                            <div class="plan-option">
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹999</div>
+                                    <div class="plan-period">per month</div>
+                                </div>
+                                <div class="plan-services">2 Full Wash + 1 Wax</div>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Hatchback Basic Plan (₹999/month). Please provide more details.')"
+                                >
+                                    Choose Basic
+                                </button>
+                            </div>
+
+                            <!-- Premium Plan -->
+                            <div class="plan-option premium">
+                                <div class="popular-badge">POPULAR</div>
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹2,499</div>
+                                    <div class="plan-period">per 3 months</div>
+                                </div>
+                                <div class="plan-services">6 Full Wash + 3 Wax + 1 Engine</div>
+                                <button 
+                                    class="btn-luxury" 
+                                    style="width: 100%;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Hatchback Premium Plan (₹2,499/3 months). Please provide more details.')"
+                                >
+                                    Choose Premium
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sedan Plan -->
+                    <div class="card-elevated plan-card">
+                        <div class="plan-header">
+                            <div class="plan-icon">🚙</div>
+                            <div>
+                                <h3 class="plan-title">Sedan</h3>
+                                <p class="plan-subtitle">Professional care for your vehicle</p>
+                            </div>
+                        </div>
+                        
+                        <div class="plan-options">
+                            <div class="plan-option">
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹1,499</div>
+                                    <div class="plan-period">per month</div>
+                                </div>
+                                <div class="plan-services">2 Full Wash + 1 Wax</div>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Sedan Basic Plan (₹1,499/month). Please provide more details.')"
+                                >
+                                    Choose Basic
+                                </button>
+                            </div>
+
+                            <div class="plan-option premium">
+                                <div class="popular-badge">POPULAR</div>
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹3,499</div>
+                                    <div class="plan-period">per 3 months</div>
+                                </div>
+                                <div class="plan-services">6 Full Wash + 3 Wax + 1 Engine</div>
+                                <button 
+                                    class="btn-luxury" 
+                                    style="width: 100%;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Sedan Premium Plan (₹3,499/3 months). Please provide more details.')"
+                                >
+                                    Choose Premium
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SUV/MUV Plan -->
+                    <div class="card-elevated plan-card">
+                        <div class="plan-header">
+                            <div class="plan-icon">🚐</div>
+                            <div>
+                                <h3 class="plan-title">SUV/MUV</h3>
+                                <p class="plan-subtitle">Professional care for your vehicle</p>
+                            </div>
+                        </div>
+                        
+                        <div class="plan-options">
+                            <div class="plan-option">
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹1,999</div>
+                                    <div class="plan-period">per month</div>
+                                </div>
+                                <div class="plan-services">2 Full Wash + 1 Wax</div>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the SUV/MUV Basic Plan (₹1,999/month). Please provide more details.')"
+                                >
+                                    Choose Basic
+                                </button>
+                            </div>
+
+                            <div class="plan-option premium">
+                                <div class="popular-badge">POPULAR</div>
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹4,499</div>
+                                    <div class="plan-period">per 3 months</div>
+                                </div>
+                                <div class="plan-services">6 Full Wash + 3 Wax + 1 Engine</div>
+                                <button 
+                                    class="btn-luxury" 
+                                    style="width: 100%;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the SUV/MUV Premium Plan (₹4,499/3 months). Please provide more details.')"
+                                >
+                                    Choose Premium
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Luxury Plan -->
+                    <div class="card-elevated plan-card">
+                        <div class="plan-header">
+                            <div class="plan-icon">🏎️</div>
+                            <div>
+                                <h3 class="plan-title">Luxury</h3>
+                                <p class="plan-subtitle">Professional care for your vehicle</p>
+                            </div>
+                        </div>
+                        
+                        <div class="plan-options">
+                            <div class="plan-option">
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹2,999</div>
+                                    <div class="plan-period">per month</div>
+                                </div>
+                                <div class="plan-services">2 Full Wash + 1 Wax + Leather Care</div>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Luxury Basic Plan (₹2,999/month). Please provide more details.')"
+                                >
+                                    Choose Basic
+                                </button>
+                            </div>
+
+                            <div class="plan-option premium">
+                                <div class="popular-badge">POPULAR</div>
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹6,999</div>
+                                    <div class="plan-period">per 3 months</div>
+                                </div>
+                                <div class="plan-services">6 Full Wash + 3 Wax + 2 Leather + Engine</div>
+                                <button 
+                                    class="btn-luxury" 
+                                    style="width: 100%;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Luxury Premium Plan (₹6,999/3 months). Please provide more details.')"
+                                >
+                                    Choose Premium
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Electric Cars Plan -->
+                    <div class="card-elevated plan-card">
+                        <div class="plan-header">
+                            <div class="plan-icon">⚡</div>
+                            <div>
+                                <h3 class="plan-title">Electric Cars</h3>
+                                <p class="plan-subtitle">Professional care for your vehicle</p>
+                            </div>
+                        </div>
+                        
+                        <div class="plan-options">
+                            <div class="plan-option">
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹1,299</div>
+                                    <div class="plan-period">per month</div>
+                                </div>
+                                <div class="plan-services">2 Full Wash + Eco Products</div>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Electric Cars Basic Plan (₹1,299/month). Please provide more details.')"
+                                >
+                                    Choose Basic
+                                </button>
+                            </div>
+
+                            <div class="plan-option premium">
+                                <div class="popular-badge">POPULAR</div>
+                                <div style="text-align: center; margin-bottom: 12px;">
+                                    <div class="plan-price">₹3,299</div>
+                                    <div class="plan-period">per 3 months</div>
+                                </div>
+                                <div class="plan-services">6 Full Wash + 3 Wax + Engine Safe for EV</div>
+                                <button 
+                                    class="btn-luxury" 
+                                    style="width: 100%;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Electric Cars Premium Plan (₹3,299/3 months). Please provide more details.')"
+                                >
+                                    Choose Premium
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Individual Services Section -->
+        <section id="services" class="section-padding bg-white">
+            <div class="container-custom">
+                <div style="text-align: center; margin-bottom: 64px;">
+                    <h2 style="font-size: 2.25rem; font-weight: 700; color: #1a202c; margin-bottom: 16px;">
+                        Individual Services
+                    </h2>
+                    <p style="font-size: 1.25rem; color: #64748b;">
+                        Select from our range of individual car care services
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Basic Wash -->
+                    <div class="card-service">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
+                                    <path d="M14 16H9m10 0h3m-3-3.5a3.5 3.5 0 0 1-7 0v-9a3.5 3.5 0 0 1 7 0v9Z"/>
+                                    <path d="M7 9h.01"/>
+                                    <circle cx="7" cy="9" r="4"/>
+                                </svg>
+                            </div>
+                            <div class="service-content">
+                                <div class="service-header">
+                                    <h3 class="service-name">Basic Wash</h3>
+                                    <span class="service-price">₹299</span>
+                                </div>
+                                <p class="service-description">Exterior wash, tire shine, window cleaning</p>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Basic Wash service (₹299). Please provide more details.')"
+                                >
+                                    Book Service
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Premium Wash -->
+                    <div class="card-service">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
+                                    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.5a2 2 0 0 0-1.437 1"/>
+                                    <path d="M17.937 15.5A2 2 0 0 0 16.5 14.5a2 2 0 0 0-1.437 1"/>
+                                    <path d="M6 8a4 4 0 0 1 6.23-3.31L8 8.31V12a4 4 0 0 1-2-3.46"/>
+                                    <path d="m8 9 2 3 4-6"/>
+                                    <circle cx="12" cy="5" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="service-content">
+                                <div class="service-header">
+                                    <h3 class="service-name">Premium Wash</h3>
+                                    <span class="service-price">₹599</span>
+                                </div>
+                                <p class="service-description">Clay bar treatment and sealant</p>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Premium Wash service (₹599). Please provide more details.')"
+                                >
+                                    Book Service
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interior Cleaning -->
+                    <div class="card-service">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="9" cy="7" r="4"/>
+                                    <path d="m22 21-2-2"/>
+                                    <path d="m16 16 2 2"/>
+                                </svg>
+                            </div>
+                            <div class="service-content">
+                                <div class="service-header">
+                                    <h3 class="service-name">Interior Cleaning</h3>
+                                    <span class="service-price">₹399</span>
+                                </div>
+                                <p class="service-description">Vacuuming, surface cleaning, air freshener</p>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Interior Cleaning service (₹399). Please provide more details.')"
+                                >
+                                    Book Service
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Detailing -->
+                    <div class="card-service">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
+                                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                                </svg>
+                            </div>
+                            <div class="service-content">
+                                <div class="service-header">
+                                    <h3 class="service-name">Detailing</h3>
+                                    <span class="service-price">₹899</span>
+                                </div>
+                                <p class="service-description">Deep cleaning of interior, stain removal</p>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Detailing service (₹899). Please provide more details.')"
+                                >
+                                    Book Service
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Waxing -->
+                    <div class="card-service">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="service-content">
+                                <div class="service-header">
+                                    <h3 class="service-name">Waxing</h3>
+                                    <span class="service-price">₹499</span>
+                                </div>
+                                <p class="service-description">Protective wax for enhanced shine</p>
+                                <button 
+                                    class="btn-outline" 
+                                    style="width: 100%; font-size: 14px;"
+                                    onclick="contactWhatsApp('Hi! I\\'m interested in the Waxing service (₹499). Please provide more details.')"
+                                >
+                                    Book Service
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 48px;">
+                    <p style="color: #64748b; margin-bottom: 24px;">Need a custom package or have specific requirements?</p>
+                    <button 
+                        class="btn-primary"
+                        onclick="contactWhatsApp('Hi! I need a custom car wash package. Please help me create one.')"
+                    >
+                        Get Custom Quote
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Testimonials Section -->
+        <section class="section-padding bg-gray-50">
+            <div class="container-custom">
+                <div style="text-align: center; margin-bottom: 64px;">
+                    <h2 style="font-size: 2.25rem; font-weight: 700; color: #1a202c; margin-bottom: 16px;">
+                        Customer Testimonials
+                    </h2>
+                    <p style="font-size: 1.25rem; color: #64748b;">
+                        What our satisfied customers say about us
+                    </p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="card-elevated">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <span class="testimonial-avatar-text">R</span>
+                            </div>
+                            <div>
+                                <h4 class="testimonial-name">Rajesh Kumar</h4>
+                                <p class="testimonial-location">Whitefield, Bangalore</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">"Dr. ScrubBoss has transformed how I care for my car. The convenience is unmatched, and my car has never looked better!"</p>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="card-elevated">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <span class="testimonial-avatar-text">P</span>
+                            </div>
+                            <div>
+                                <h4 class="testimonial-name">Priya Sharma</h4>
+                                <p class="testimonial-location">Electronic City, Bangalore</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">"Excellent service! They come right to my doorstep and the quality is outstanding. Highly recommend their premium package."</p>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="card-elevated">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <span class="testimonial-avatar-text">A</span>
+                            </div>
+                            <div>
+                                <h4 class="testimonial-name">Amit Patel</h4>
+                                <p class="testimonial-location">Koramangala, Bangalore</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-stars">
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <svg class="star" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                        </div>
+                        <p class="testimonial-text">"Professional team, eco-friendly products, and great customer support. My luxury car is always spotless!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding bg-white">
+            <div class="container-custom">
+                <div style="text-align: center; margin-bottom: 64px;">
+                    <h2 style="font-size: 2.25rem; font-weight: 700; color: #1a202c; margin-bottom: 16px;">
+                        Contact
+                    </h2>
+                    <p style="font-size: 1.25rem; color: #64748b; max-width: 768px; margin: 0 auto;">
+                        Get in touch with Dr. ScrubBoss for any inquiries or assistance. 
+                        We're here to help you keep your vehicle in top condition.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon email">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2">
+                                    <path d="M21 8.5l-10.5 7L0 8.5"/>
+                                    <rect width="21" height="16" x="1.5" y="4" rx="2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="contact-title">Email</h3>
+                                <a href="mailto:contact@drscrubboss.com" class="contact-link">
+                                    contact@drscrubboss.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon phone">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="contact-title">Phone</h3>
+                                <a href="tel:+919916877128" class="contact-link phone">
+                                    +91 9916877128
+                                </a>
+                            </div>
+                        </div>
+
+                        <button 
+                            class="btn-whatsapp" 
+                            style="width: 100%;"
+                            onclick="contactWhatsApp()"
+                        >
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                            Chat on WhatsApp
+                        </button>
+                    </div>
+
+                    <!-- Service Areas -->
+                    <div class="service-areas">
+                        <h3 class="areas-title">Service Areas</h3>
+                        <p class="areas-description">We currently serve the following areas in Bangalore:</p>
+                        
+                        <div class="areas-list">
+                            <div class="area-item">
+                                <svg class="area-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span class="area-text">Whitefield</span>
+                            </div>
+                            <div class="area-item">
+                                <svg class="area-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span class="area-text">Electronic City</span>
+                            </div>
+                            <div class="area-item">
+                                <svg class="area-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span class="area-text">Koramangala</span>
+                            </div>
+                        </div>
+
+                        <div class="expansion-note">
+                            <p class="expansion-text">
+                                <strong>Don't see your area?</strong> Contact us to check if we can serve your location. 
+                                We're constantly expanding our service areas!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container-custom">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <svg class="footer-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 16H9m10 0h3m-3-3.5a3.5 3.5 0 0 1-7 0v-9a3.5 3.5 0 0 1 7 0v9Z"/>
+                            <path d="M7 9h.01"/>
+                            <circle cx="7" cy="9" r="4"/>
+                        </svg>
+                        <span class="footer-logo-text">Dr. ScrubBoss</span>
+                    </div>
+                    <div class="footer-info">
+                        <p class="footer-tagline">Premium Car Care at Your Doorstep</p>
+                        <p class="footer-copyright">© 2024 Dr. ScrubBoss. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Mobile Bottom Navigation -->
+        <div class="mobile-bottom-nav">
+            <button class="mobile-nav-item active" onclick="scrollToSection('home')">
+                <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 16H9m10 0h3m-3-3.5a3.5 3.5 0 0 1-7 0v-9a3.5 3.5 0 0 1 7 0v9Z"/>
+                    <path d="M7 9h.01"/>
+                    <circle cx="7" cy="9" r="4"/>
+                </svg>
+                <span class="mobile-nav-text">Home</span>
+            </button>
+            <button class="mobile-nav-item" onclick="scrollToSection('subscriptions')">
+                <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                </svg>
+                <span class="mobile-nav-text">Plans</span>
+            </button>
+            <button class="mobile-nav-item" onclick="scrollToSection('services')">
+                <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9.937 15.5A2 2 0 0 0 8.5 14.5a2 2 0 0 0-1.437 1"/>
+                    <path d="M17.937 15.5A2 2 0 0 0 16.5 14.5a2 2 0 0 0-1.437 1"/>
+                    <path d="M6 8a4 4 0 0 1 6.23-3.31L8 8.31V12a4 4 0 0 1-2-3.46"/>
+                    <path d="m8 9 2 3 4-6"/>
+                    <circle cx="12" cy="5" r="3"/>
+                </svg>
+                <span class="mobile-nav-text">Services</span>
+            </button>
+            <button class="mobile-nav-item" onclick="scrollToSection('contact')">
+                <svg class="mobile-nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                <span class="mobile-nav-text">Contact</span>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let activeSection = 'home';
+        let isMenuOpen = false;
+
+        // WhatsApp contact function
+        function contactWhatsApp(message = '') {
+            const phoneNumber = '919916877128';
+            const defaultMessage = 'Hi Dr. ScrubBoss! I\'m interested in your car wash services.';
+            const finalMessage = message || defaultMessage;
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(finalMessage)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Toggle mobile menu
+        function toggleMobileMenu() {
+            isMenuOpen = !isMenuOpen;
+            const mobileNav = document.getElementById('mobile-nav');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+            
+            if (isMenuOpen) {
+                mobileNav.classList.remove('hidden');
+                menuIcon.classList.add('hidden');
+                closeIcon.classList.remove('hidden');
+            } else {
+                mobileNav.classList.add('hidden');
+                menuIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            }
+        }
+
+        // Scroll to section function
+        function scrollToSection(sectionId) {
+            activeSection = sectionId;
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+            
+            // Close mobile menu if open
+            if (isMenuOpen) {
+                toggleMobileMenu();
+            }
+            
+            // Update active navigation states
+            updateActiveNavigation(sectionId);
+        }
+
+        // Update active navigation states
+        function updateActiveNavigation(sectionId) {
+            // Update desktop navigation
+            const desktopNavLinks = document.querySelectorAll('.nav-desktop .nav-link');
+            desktopNavLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            // Update mobile bottom navigation
+            const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
+            mobileNavItems.forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Add active class to current section
+            const sectionMap = {
+                'home': 0,
+                'subscriptions': 1,
+                'services': 2,
+                'contact': 3
+            };
+            
+            const index = sectionMap[sectionId];
+            if (index !== undefined) {
+                if (desktopNavLinks[index]) {
+                    desktopNavLinks[index].classList.add('active');
+                }
+                if (mobileNavItems[index]) {
+                    mobileNavItems[index].classList.add('active');
+                }
+            }
+        }
+
+        // Intersection Observer for section tracking
+        function initSectionObserver() {
+            const sections = document.querySelectorAll('section[id]');
+            const observerOptions = {
+                root: null,
+                rootMargin: '-20% 0px -80% 0px',
+                threshold: 0
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const sectionId = entry.target.id;
+                        activeSection = sectionId;
+                        updateActiveNavigation(sectionId);
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => observer.observe(section));
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initSectionObserver();
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const mobileNav = document.getElementById('mobile-nav');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            
+            if (isMenuOpen && !mobileNav.contains(event.target) && !menuBtn.contains(event.target)) {
+                toggleMobileMenu();
+            }
+        });
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 768 && isMenuOpen) {
+                toggleMobileMenu();
+            }
+        });
+    </script>
+</body>
+</html>
