@@ -224,9 +224,9 @@ const Index = () => {
         </div>
         
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Eco-Friendly Car Care at Your
-            <span className="text-gradient-luxury block mt-2">Doorstep</span>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight text-white">
+            Because Your Car Deserves VIP Treatment—
+            <span className="text-gradient-luxury block mt-2">At Home</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
             Dr. ScrubBoss brings professional car washing and detailing to you, with a 
